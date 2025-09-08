@@ -338,10 +338,10 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>The link to the survey will be activated on the second day of the workshop..</p>
+<h2 id="surveys">Survey</h2>
+<p>The link to the survey will be activated on the second day of the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="[https://goo.gl/forms/KoUfO53Za3apOuOK2](https://events.hifis.net/event/2765/surveys/762)">Survey</a></p>
+<p><a href="https://events.hifis.net/event/2765/surveys/762">Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
